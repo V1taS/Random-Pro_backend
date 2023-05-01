@@ -1,0 +1,278 @@
+### Common ###
+# Log files
+*.log
+
+# Backup files
+*~
+
+### Compiled ###
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+### Python ###
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+.env
+.venv
+env.bak/
+venv.bak/
+*.egg-info/
+dist/
+build/
+develop-eggs/
+downloads/
+eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+!MANIFEST.in
+*.manifest
+*.spec
+
+### Node.js ###
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Output files
+*.js.map
+*.js
+
+# Runtime files
+.npm
+.eslintcache
+.cache
+.cache-loader
+
+### Java ###
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.nar
+*.log
+hs_err_pid*
+.classpath
+.project
+.settings/
+.factorypath
+
+### .NET ###
+*.dll
+*.exe
+*.pdb
+*.mdb
+*.log
+*.cache
+*.csproj.user
+*.suo
+obj/
+bin/
+packages/
+*.nupkg
+*.sln.cache
+*.csproj.user
+
+### Ruby ###
+*.gem
+*.rbc
+*.bundle
+.bundle/
+bin/
+log/
+tmp/
+.vendor/
+db/*.sqlite3
+db/*.sqlite3-journal
+/public/system/
+coverage/
+spec/tmp/
+.derived.yml
+doc/api
+doc/app
+
+### PHP ###
+vendor/
+*.php~
+!php.ini
+*.swp
+.idea/
+.phpstorm.meta.php
+.phpunit.result.cache
+
+### Django-specific ###
+*.pot
+*.mo
+*.po
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+
+### Flask-specific ###
+instance/
+.webassets-cache
+
+### Go ###
+*.exe
+*.test
+*.prof
+*.out
+*.o
+*.a
+*.so
+*.swp
+*.log
+bin/
+pkg/
+vendor/
+
+### Elixir ###
+/_build
+/deps
+/*.ez
+/doc
+/.fetch
+/.tool-versions
+/erl_crash.dump
+/.elixir_ls
+/ebin
+/cover
+.elixir_inline_modules
+
+### Scala ###
+*.class
+*.log
+*.zip
+*.gz
+*.jar
+*.xml
+*.jre
+*.checkpoint
+*.ser
+*.iml
+*.ipr
+*.iws
+*.bak
+*.swp
+/target
+/.ensime
+/.ensime_cache
+/.idea
+/.idea_modules
+/.metals
+/.bloop
+/.coursier
+/.tmp
+/project/project
+/project/target
+/.ammonite
+/.vscode
+/lib_managed
+/src_managed
+
+### Rust ###
+/target
+**/*.rs.bk
+Cargo.lock
+
+### JetBrains ###
+# JetBrains IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+### Visual Studio Code ###
+.vscode/
+.settings/
+history
+
+### Sublime Text ###
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+
+### Vim ###
+*.un~
+*.swp
+*.swo
+*.swn
+*.backup
+*.bak
+*.tmp
+*.viminfo
+
+### Emacs ###
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+.elc
+/auto-save-list
+.tramp_history
+.undodir
+
+### macOS ###
+.DS_Store
+
+.AppleDouble
+.LSOverride
+._*
+.Trashes
+
+### Kotlin ###
+*.class
+*.log
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.nar
+*.log
+out/
+build/
+.idea/
+.gradle/
+*.iml
+*.jks
+*.hprof
+
+### Gradle ###
+.gradle/
+build/
+!gradle-wrapper.jar
+
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper configuration files
+!gradle/wrapper/gradle-wrapper.properties
+!gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.cmd
+!gradle/wrapper/gradle-wrapper.bat
