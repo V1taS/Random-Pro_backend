@@ -1,0 +1,45 @@
+name: Deploy to Google Cloud
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up JDK 11
+      uses: actions/setup-java@v2
+      with:
+        java-version: 11
+        distribution: 'temurin' # заменили 'adopt' на 'temurin', так как Adopt OpenJDK теперь является проектом Eclipse Temurin
+
+    - name: Cache Gradle dependencies
+      uses: actions/cache@v2
+      with:
+        path: ~/.gradle/caches
+        key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle') }}
+        restore-keys: |
+          ${{ runner.os }}-gradle-
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+
+    - name: Build with Gradle
+      run: ./gradlew shadowJar
+
+    - name: Authenticate with Google Cloud
+      run: echo "$GCLOUD_SERVICE_KEY" | gcloud auth activate-service-account --key-file=-
+      env:
+        GCLOUD_SERVICE_KEY: ${{ secrets.GCLOUD_SERVICE_KEY }}
+
+    - name: Deploy to Google Cloud
+      run: ./gradlew appengineDeploy
+      env:
+        GCLOUD_PROJECT: ${{ secrets.GCLOUD_PROJECT }}
+        GCLOUD_SERVICE_KEY: ${{ secrets.GCLOUD_SERVICE_KEY }}

@@ -1,0 +1,2 @@
+runtime: java11
+entrypoint: 'java -jar com.sosinvitalii.random-pro_backend-all.jar'
