@@ -14,6 +14,9 @@ class LoginController(private val call: ApplicationCall) {
     suspend fun performLogin() {
         val loginReceiveRemoteModel = call.receive<LoginReceiveRemoteModel>()
         val userDTO = Users.fetchUser(loginReceiveRemoteModel.login)
+        val token = UUID.randomUUID().toString()
+        call.respond(LoginResponseRemoteModel(token))
+        return
 
         if (userDTO == null) {
             call.respond(HttpStatusCode.BadRequest, "User not found")
