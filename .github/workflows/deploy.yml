@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-java@v3
       with:
         java-version: 11
-        distribution: 'temurin' # заменили 'adopt' на 'temurin', так как Adopt OpenJDK теперь является проектом Eclipse Temurin
+        distribution: 'temurin'
     - name: Set up Python
       uses: actions/setup-python@v3
       with:
@@ -53,7 +53,7 @@ jobs:
         GCLOUD_PROJECT: ${{ secrets.GCLOUD_PROJECT }}
         GCLOUD_SERVICE_KEY: ${{ secrets.GCLOUD_SERVICE_KEY }}
 
-    - name: Send Telegram notification "Новый МР создан"
+    - name: Send Telegram notification "New deploy for backend created"
       env:
         TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
