@@ -18,6 +18,15 @@ jobs:
       with:
         java-version: 11
         distribution: 'temurin' # заменили 'adopt' на 'temurin', так как Adopt OpenJDK теперь является проектом Eclipse Temurin
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: 3.x
+  
+    - name: Set up Python dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install python-telegram-bot
 
     - name: Cache Gradle dependencies
       uses: actions/cache@v3
@@ -43,3 +52,13 @@ jobs:
       env:
         GCLOUD_PROJECT: ${{ secrets.GCLOUD_PROJECT }}
         GCLOUD_SERVICE_KEY: ${{ secrets.GCLOUD_SERVICE_KEY }}
+
+    - name: Send Telegram notification "Новый МР создан"
+      env:
+        TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+        TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      run: |
+        python Scripts/send_telegram.py "🕹️ New deploy for backend created! 🕹️
+        Author: ${{ github.actor }}
+        Branch: ${{ github.head_ref }}
+        Pull Request URL: ${{ github.event.pull_request.html_url }}"
