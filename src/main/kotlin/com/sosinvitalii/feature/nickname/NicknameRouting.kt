@@ -7,7 +7,7 @@ fun Application.configureNicknameRouting() {
     routing {
         get("/api/v1/nickname") {
             val nicknameController = NicknameController(call)
-            nicknameController.performLogin()
+            nicknameController.perform()
         }
     }
 }

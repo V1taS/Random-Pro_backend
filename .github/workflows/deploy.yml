@@ -59,6 +59,4 @@ jobs:
         TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
       run: |
         python Scripts/send_telegram.py "🕹️ New deploy for backend created! 🕹️
-        Author: ${{ github.actor }}
-        Branch: ${{ github.head_ref }}
-        Pull Request URL: ${{ github.event.pull_request.html_url }}"
+        Author: ${{ github.actor }}"

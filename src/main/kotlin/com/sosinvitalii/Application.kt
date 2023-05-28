@@ -5,6 +5,7 @@ import com.sosinvitalii.plugins.*
 import com.sosinvitalii.feature.login.configureLoginRouting
 import com.sosinvitalii.feature.register.configureRegisterRouting
 import com.sosinvitalii.feature.nickname.configureNicknameRouting
+import com.sosinvitalii.feature.names.configureNamesRouting
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
@@ -17,4 +18,5 @@ fun Application.module() {
     configureLoginRouting()
     configureRegisterRouting()
     configureNicknameRouting()
+    configureNamesRouting()
 }
