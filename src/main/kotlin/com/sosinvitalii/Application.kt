@@ -8,8 +8,7 @@ import com.sosinvitalii.feature.nickname.configureNicknameRouting
 import com.sosinvitalii.feature.names.configureNamesRouting
 import com.sosinvitalii.feature.congratulations.configureCongratulationsRouting
 import com.sosinvitalii.feature.riddles.configureRiddlesRouting
-import io.ktor.server.response.*
-import io.ktor.server.routing.*
+import com.sosinvitalii.feature.giftIdeas.configureGiftIdeasRouting
 
 // MARK: - Internal func
 
@@ -23,4 +22,5 @@ fun Application.module() {
     configureNamesRouting()
     configureCongratulationsRouting()
     configureRiddlesRouting()
+    configureGiftIdeasRouting()
 }

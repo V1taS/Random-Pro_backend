@@ -1,13 +1,12 @@
-package com.sosinvitalii.feature.riddles
+package com.sosinvitalii.feature.giftIdeas
 
-import com.sosinvitalii.database.riddles.Difficult
-import com.sosinvitalii.database.riddles.Language
-import com.sosinvitalii.database.riddles.Riddles
+import com.sosinvitalii.database.giftIdeas.Gender
+import com.sosinvitalii.database.giftIdeas.GiftIdeas
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.response.*
 
-class RiddlesController(private val call: ApplicationCall) {
+class GiftIdeasController(private val call: ApplicationCall) {
     suspend fun perform() {
         val requestAPIKey = call.request.headers["api_key"]
         val constantAPIKey = "4t2AceLVaSW88H8wJ1f6"
@@ -17,16 +16,16 @@ class RiddlesController(private val call: ApplicationCall) {
             call.respond(HttpStatusCode.BadRequest, "Invalid API-KEY")
         }
 
-        // Проверка сложности
-        val difficultString = call.request.queryParameters["difficult"]
-        if (difficultString == null) {
-            call.respond(HttpStatusCode.BadRequest, "No difficult specified")
+        // Проверка пола
+        val genderString = call.request.queryParameters["gender"]
+        if (genderString == null) {
+            call.respond(HttpStatusCode.BadRequest, "No gender specified")
             return
         }
 
-        val difficult = Difficult.fromString(difficultString)
-        if (difficult == null) {
-            call.respond(HttpStatusCode.BadRequest, "Invalid difficult: $difficultString")
+        val gender = Gender.fromString(genderString)
+        if (gender == null) {
+            call.respond(HttpStatusCode.BadRequest, "Invalid gender: $genderString")
             return
         }
 
@@ -37,13 +36,13 @@ class RiddlesController(private val call: ApplicationCall) {
             return
         }
 
-        val languageEnum = Language.fromString(language)
+        val languageEnum = com.sosinvitalii.database.giftIdeas.Language.fromString(language)
         if (languageEnum == null) {
             call.respond(HttpStatusCode.BadRequest, "Invalid language: $language")
             return
         }
 
-        val names = Riddles.fetch(languageEnum, difficult)
+        val names = GiftIdeas.fetch(languageEnum, gender)
         call.respond(names)
     }
 }

@@ -3,7 +3,6 @@ package com.sosinvitalii.feature.congratulations
 import com.sosinvitalii.database.congratulations.Congratulations
 import com.sosinvitalii.database.congratulations.Language
 import com.sosinvitalii.database.congratulations.GreetingsType
-
 import io.ktor.http.*
 import io.ktor.server.application.*
 import io.ktor.server.response.*
