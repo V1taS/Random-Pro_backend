@@ -3,9 +3,7 @@ package com.sosinvitalii.feature.nickname
 import com.sosinvitalii.database.nickname.Nicknames
 import io.ktor.http.*
 import io.ktor.server.application.*
-import io.ktor.server.request.*
 import io.ktor.server.response.*
-import java.util.*
 
 class NicknameController(private val call: ApplicationCall) {
 
