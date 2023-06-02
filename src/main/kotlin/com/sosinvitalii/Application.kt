@@ -7,6 +7,7 @@ import com.sosinvitalii.feature.register.configureRegisterRouting
 import com.sosinvitalii.feature.nickname.configureNicknameRouting
 import com.sosinvitalii.feature.names.configureNamesRouting
 import com.sosinvitalii.feature.congratulations.configureCongratulationsRouting
+import com.sosinvitalii.feature.goodDeeds.configureGoodDeedsRouting
 import com.sosinvitalii.feature.riddles.configureRiddlesRouting
 import com.sosinvitalii.feature.giftIdeas.configureGiftIdeasRouting
 
@@ -23,4 +24,5 @@ fun Application.module() {
     configureCongratulationsRouting()
     configureRiddlesRouting()
     configureGiftIdeasRouting()
+    configureGoodDeedsRouting()
 }
