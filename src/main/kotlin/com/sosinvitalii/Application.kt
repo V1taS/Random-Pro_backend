@@ -7,6 +7,7 @@ import com.sosinvitalii.feature.register.configureRegisterRouting
 import com.sosinvitalii.feature.nickname.configureNicknameRouting
 import com.sosinvitalii.feature.names.configureNamesRouting
 import com.sosinvitalii.feature.congratulations.configureCongratulationsRouting
+import com.sosinvitalii.feature.riddles.configureRiddlesRouting
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 
@@ -21,4 +22,5 @@ fun Application.module() {
     configureNicknameRouting()
     configureNamesRouting()
     configureCongratulationsRouting()
+    configureRiddlesRouting()
 }
