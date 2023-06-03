@@ -103,7 +103,6 @@ object EnglishGoodDeeds {
         "Volunteering in a program supporting the development of children's creativity and artistic activities",
         "Assisting local programs in providing psychological support to people in crisis situations",
         "Donating time and skills to help local programs in career orientation for teenagers",
-
         "Volunteering in the program to support local home care services for elderly people",
         "Assisting local programs in combating child marriages and protecting children's rights",
         "Donating funds to support accessible education programs for children from low-income families",
