@@ -1,5 +1,6 @@
 package com.sosinvitalii.database.names
 
+/// Имена на английском языке
 object EnglishNames {
     fun fetch(gender: Gender): List<String> {
         return if (gender == Gender.MALE) {
