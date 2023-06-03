@@ -1,5 +1,6 @@
 package com.sosinvitalii.database.congratulations
 
+/// Поздравление с новым годом
 object NewYearCongratulations {
     fun fetch(language: Language): List<String> {
         return when (language) {

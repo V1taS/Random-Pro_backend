@@ -11,6 +11,7 @@ import com.sosinvitalii.feature.goodDeeds.configureGoodDeedsRouting
 import com.sosinvitalii.feature.riddles.configureRiddlesRouting
 import com.sosinvitalii.feature.giftIdeas.configureGiftIdeasRouting
 import com.sosinvitalii.feature.jokes.configureJokesRouting
+import com.sosinvitalii.feature.quotes.configureQuotesRouting
 
 // MARK: - Internal func
 
@@ -27,4 +28,5 @@ fun Application.module() {
     configureGiftIdeasRouting()
     configureGoodDeedsRouting()
     configureJokesRouting()
+    configureQuotesRouting()
 }

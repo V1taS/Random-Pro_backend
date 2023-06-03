@@ -1,7 +1,6 @@
 package com.sosinvitalii.database.giftIdeas
 
-import com.sosinvitalii.database.giftIdeas.Gender
-
+/// Подарки на русском языке
 object RussianGiftIdeas {
     fun fetch(gender: Gender): List<String> {
         return if (gender == Gender.MALE) {

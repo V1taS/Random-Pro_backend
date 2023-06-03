@@ -1,5 +1,6 @@
 package com.sosinvitalii.database.jokes
 
+/// Анекдоты на английском языке
 object EnglishJokes {
     fun fetch(): List<String> {
         return jokes

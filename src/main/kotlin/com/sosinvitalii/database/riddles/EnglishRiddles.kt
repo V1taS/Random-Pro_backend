@@ -2,6 +2,7 @@ package com.sosinvitalii.database.riddles
 
 import com.sosinvitalii.feature.riddles.RiddleResponseRemote
 
+/// Загадки на английском языке
 object EnglishRiddles {
     fun fetch(difficult: Difficult): List<RiddleResponseRemote> {
         return if (difficult == Difficult.HARD) {

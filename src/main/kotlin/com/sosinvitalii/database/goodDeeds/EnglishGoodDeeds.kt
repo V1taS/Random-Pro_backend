@@ -1,5 +1,6 @@
 package com.sosinvitalii.database.goodDeeds
 
+/// Хорошие дела на английском языке
 object EnglishGoodDeeds {
     fun fetch(): List<String> {
         return goodDeeds

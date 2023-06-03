@@ -1,5 +1,6 @@
 package com.sosinvitalii.database.congratulations
 
+/// Поздравление с браком (свадьбой)
 object WeddingCongratulations {
     fun fetch(language: Language): List<String> {
         return when (language) {

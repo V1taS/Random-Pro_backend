@@ -1,5 +1,6 @@
 package com.sosinvitalii.database.nickname
 
+/// Никнеймы на английском языке
 object Nicknames {
     fun fetch(): List<String> {
         return listNicknames
