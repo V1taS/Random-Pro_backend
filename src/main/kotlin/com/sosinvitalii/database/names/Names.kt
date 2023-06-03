@@ -1,7 +1,5 @@
 package com.sosinvitalii.database.names
 
-import com.sosinvitalii.database.names.Names
-
 enum class Gender {
     MALE, FEMALE;
 
