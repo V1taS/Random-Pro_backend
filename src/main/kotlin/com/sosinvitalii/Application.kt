@@ -14,6 +14,7 @@ import com.sosinvitalii.feature.jokes.configureJokesRouting
 import com.sosinvitalii.feature.quotes.configureQuotesRouting
 import com.sosinvitalii.feature.slogans.configureSlogansRouting
 import com.sosinvitalii.feature.truthOrDare.configureTruthOrDareRouting
+import com.sosinvitalii.feature.onboarding.configureOnboardingRouting
 
 // MARK: - Internal func
 
@@ -33,4 +34,5 @@ fun Application.module() {
     configureQuotesRouting()
     configureSlogansRouting()
     configureTruthOrDareRouting()
+    configureOnboardingRouting()
 }
