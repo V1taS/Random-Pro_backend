@@ -1,5 +1,4 @@
 package com.sosinvitalii.database.riddles
-
 import com.sosinvitalii.feature.riddles.RiddleResponseRemote
 
 /// Загадки на русском языке
