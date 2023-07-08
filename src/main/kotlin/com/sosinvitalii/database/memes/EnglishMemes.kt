@@ -10,7 +10,6 @@ object EnglishMemes {
 
     private val memes = listOf(
         MemesResponseRemote(urlImage = "$baseUrl/5eef7b08ad061.jpeg"),
-        MemesResponseRemote(urlImage = "$baseUrl/название_картинки.jpeg"),
-        MemesResponseRemote(urlImage = "$baseUrl/название_картинки.jpeg")
+        MemesResponseRemote(urlImage = "$baseUrl/1648239656_45-kartinkof-club-p-memi-pro-angliiskii-yazik-48.jpg")
     )
 }
