@@ -345,7 +345,7 @@ object EnglishTruthOrDare {
         "What truth about your most dramatic or emotional experiences were you ready to tell in the game?",
         "What action would you like someone to do in the game to show their courage or determination?",
         "What truth about your most unusual or strange dreams were you ready to tell in the game?",
-        "What truth about your most poignant or inspiring moments in life were you ready to reveal in
+        "What truth about your most poignant or inspiring moments in life were you ready to reveal in",
                 "What truth about your funniest or unusual dog pranks were you ready to tell in the game?",
         "What truth about your most disturbing or frightening nightmares were you ready to tell in the game?",
         "What truth about your most mysterious or incomprehensible thoughts were you ready to reveal in the game?",

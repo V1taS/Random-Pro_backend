@@ -492,7 +492,8 @@ object BirthdayCongratulations {
         "Happy birthday! May each day of your life be filled not only with the accomplishment of your goals but also with the joy of your achievements.",
         "Happy birthday! I wish that every new day of your life is filled not only with love and happiness but also with the opportunity to share that joy with others. May your life become a source of inspiration to those around you!",
         "Congratulations on your birthday! May your life be filled not only with vibrant colors but also with wise decisions that help you overcome any difficulties. Be bold and believe in yourself!",
-        "I wish that each birthday is filled not only with events but also with profound moments of self-reflection that help you grow and develop as an individual. Happy birthday!","I wish that every birthday is filled not only with radiant smiles but also with profound moments of self-reflection that help you grow and evolve as an individual. Happy birthday!",
+        "I wish that each birthday is filled not only with events but also with profound moments of self-reflection that help you grow and develop as an individual. Happy birthday!",
+        "I wish that every birthday is filled not only with radiant smiles but also with profound moments of self-reflection that help you grow and evolve as an individual. Happy birthday!",
         "Today you embark on a new page of your life. May each stage be filled with amazing opportunities, wisdom, and unforgettable adventures. Happy birthday!",
         "I wish that every day of your life is filled not only with success but also with deep meaning that brings inner fulfillment and satisfaction. Happy birthday!",
         "Happy birthday! May each new year of your life bring more joy, happiness, and beautiful moments that stay in your heart. Wishing you a bright future and unforgettable experiences!",
@@ -1515,9 +1516,8 @@ object BirthdayCongratulations {
         "Желаю тебе, чтобы каждый день рождения был наполнен не только праздничной атмосферой, но и глубокими ощущениями благодарности за все, что ты имеешь. Поздравляю с этим особенным днем!",
         "Сегодня твой день, и я хочу пожелать тебе, чтобы каждый миг твоей жизни был наполнен не только улыбками, но и сияющим светом внутреннего счастья. Счастливого дня рождения!",
         "С днем рождения! Пусть каждый миг твоей жизни будет наполнен не только достижениями, но и глубокими эмоциями, которые запомнятся навсегда.",
-        "Желаю тебе, чтобы каждый день твоей жизни был наполнен не только успехами, но и глубоким удовлетворением от того, что ты делаешь. Поздравляю с днем рождения!",
-
-    )
+        "Желаю тебе, чтобы каждый день твоей жизни был наполнен не только успехами, но и глубоким удовлетворением от того, что ты делаешь. Поздравляю с днем рождения!"
+        )
 
     private val spanish = listOf(
         "Feliz cumpleaños! Que tu vida esté llena de momentos sorprendentes, personas maravillosas y eventos destacados.",
@@ -1547,9 +1547,9 @@ object BirthdayCongratulations {
         "Que tu día sea tan maravilloso como tú... Aunque será difícil lograrlo. ¡Feliz cumpleaños!",
         "¡Feliz cumpleaños! Recuerda, el vino solo mejora con el tiempo. Así que no estás envejeciendo, ¡estás mejorando!",
         "Felicitaciones por tu cumpleaños. Si te entristece hacerte mayor, simplemente recuerda: no eres viejo, ¡eres vintage!",
-        "¡Feliz cumpleaños! Recuerda que la edad son solo números, ¡y aún no estás listo para las matemáticas!"
-        "Hoy es tu día, y te mereces lo mejor... pero como lo mejor ya está ocupado (¡yo!), tendrás que conformarte con pastel y regalos. ¡Feliz cumpleaños!"
-        "¡Feliz cumpleaños! Recuerda, la edad es solo un número... pero la cuenta que viene con ese número es otra historia."
+        "¡Feliz cumpleaños! Recuerda que la edad son solo números, ¡y aún no estás listo para las matemáticas!",
+        "Hoy es tu día, y te mereces lo mejor... pero como lo mejor ya está ocupado (¡yo!), tendrás que conformarte con pastel y regalos. ¡Feliz cumpleaños!",
+        "¡Feliz cumpleaños! Recuerda, la edad es solo un número... pero la cuenta que viene con ese número es otra historia.",
         "¡Feliz cumpleaños! Si te entristece hacerte mayor, solo recuerda que la verdadera vejez es cuando le muestras fotos a tus amigos en tu teléfono y comienzan a deslizar hacia la izquierda y la derecha. ¡Pero por ahora estás a salvo!",
         "¡Feliz cumpleaños! Eres tan joven que Google aún no sabe todo sobre ti.",
         "¡Feliz cumpleaños! Recuerda, la juventud es un regalo, la vejez es un arte. Y aún te queda tiempo para alcanzar la maestría.",
@@ -1967,29 +1967,8 @@ object BirthdayCongratulations {
         "Deseo que cada cumpleaños esté lleno no solo de un ambiente festivo, sino también de profundos sentimientos de gratitud por todo lo que tienes. ¡Felicitaciones en este día especial!",
         "Hoy es tu día, y deseo que cada momento de tu vida esté lleno no solo de sonrisas, sino también de la brillante luz de la felicidad interna. ¡Feliz cumpleaños!",
         "¡Feliz cumpleaños! Que cada instante de tu vida esté lleno no solo de logros, sino también de emociones profundas que perdurarán en el recuerdo.",
-        "Deseo que cada día de tu vida esté lleno no solo de éxitos, sino también de profunda satisfacción por lo que haces. ¡Feliz cumpleaños!",
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        )
+        "Deseo que cada día de tu vida esté lleno no solo de éxitos, sino también de profunda satisfacción por lo que haces. ¡Feliz cumpleaños!"
+    )
 
     private val german = listOf(
         "Möge dein Leben voller erstaunlicher Momente, wundervoller Menschen und lebendiger Ereignisse sein! Alles Gute zum Geburtstag!",
@@ -2490,22 +2469,6 @@ object BirthdayCongratulations {
         "Herzlichen Glückwunsch zum Geburtstag! Mögest du heute und in jedem kommenden Jahr mit Liebe, Glück und Zufriedenheit gesegnet sein. Genieße deinen Tag und lass dich von all der positiven Energie umarmen!",
         "Zum Geburtstag wünsche ich dir unendliche Freude, Erfolg und erfüllte Träume. Mögest du immer von guten Menschen umgeben sein und das Leben in vollen Zügen genießen. Feiere diesen Tag, du hast es verdient!",
         "Alles Gute zum Geburtstag! Ich wünsche dir ein Jahr voller aufregender Möglichkeiten, erfüllender Beziehungen und innerem Frieden. Feiere diesen Tag mit einem Lächeln im Gesicht und einem Herzen voller Dankbarkeit!",
-        "Herzlichen Glückwunsch zum Geburtstag! Mögen alle deine Wünsche in Erfüllung gehen und mögest du immer von Liebe, Glück und Erfolg begleitet werden. Feiere diesen besonderen Tag und genieße jeden Moment!",
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        )
+        "Herzlichen Glückwunsch zum Geburtstag! Mögen alle deine Wünsche in Erfüllung gehen und mögest du immer von Liebe, Glück und Erfolg begleitet werden. Feiere diesen besonderen Tag und genieße jeden Moment!"
+    )
 }

@@ -517,6 +517,7 @@ object WeddingCongratulations {
         "Congratulations on this beautiful and significant day in your life - your wedding day! May your marriage be filled with love, trust, and understanding. I wish you to overcome all challenges together, savor each day, and build a happy and prosperous life. May your marriage shine with beautiful harmony and be a long-lasting companionship!",
         "Congratulations to you, dear newlyweds, on your wedding! May your marriage be filled with love, happiness, and understanding. I wish you enduring mutual support, sincere smiles, and unforgettable moments. May your love be the embodiment of happiness, and may each day of your life together be filled with joy and well-being!",
     )
+
     private val italian = listOf(
         "Che il vostro matrimonio sia una solida unione d'amore, comprensione e felicità! Congratulazioni per il vostro tanto atteso giorno di nozze!",
         "Auguro che ogni giorno della vostra vita matrimoniale sia pieno di gioia, sostegno reciproco e tenerezza! Congratulazioni per il vostro matrimonio!",
@@ -1015,9 +1016,8 @@ object WeddingCongratulations {
         "Congratulazioni per questo splendido giorno in cui vi unite in matrimonio! Che il vostro matrimonio sia un santuario in cui nascono felicità, pace e comprensione reciproca. Vi auguro di costruire una casa piena di amore e momenti accoglienti e che ogni vostro giorno sia colmo di gioia e benessere. Siate felici insieme per sempre!",
         "Congratulazioni per questo meraviglioso giorno in cui diventate inseparabili! Che il vostro matrimonio sia una fonte di ispirazione reciproca, felicità e crescita. Vi auguro di costruire una famiglia basata sull'autenticità e sull'amore e che il vostro viaggio insieme sia colmo di gioia, sorrisi e momenti indimenticabili!",
         "Congratulazioni per questo splendido e significativo giorno nella vostra vita - il giorno del matrimonio! Che il vostro matrimonio sia colmo di amore, fiducia e comprensione reciproca. Vi auguro di superare insieme tutte le difficoltà, godervi ogni giorno e costruire una vita felice e prospera. Che il vostro matrimonio risplenda con una bellissima armonia e una convivenza felice e duratura!",
-        "Congratulazioni per il vostro matrimonio, cari sposi! Che il vostro matrimonio sia colmo di amore, felicità e comprensione reciproca. Vi auguro un sostegno reciproco duraturo, sorrisi sinceri e momenti indimenticabili. Che il vostro amore sia l'incarnazione della felicità e che ogni giorno della vostra vita insieme sia pieno di gioia e benessere!",
-
-    )
+        "Congratulazioni per il vostro matrimonio, cari sposi! Che il vostro matrimonio sia colmo di amore, felicità e comprensione reciproca. Vi auguro un sostegno reciproco duraturo, sorrisi sinceri e momenti indimenticabili. Che il vostro amore sia l'incarnazione della felicità e che ogni giorno della vostra vita insieme sia pieno di gioia e benessere!"
+        )
 
     private val russian = listOf(
         "Пусть ваш брак будет крепким союзом любви, взаимопонимания и счастья! Поздравляю с долгожданным свадебным днем!",
@@ -1574,7 +1574,7 @@ object WeddingCongratulations {
         "¡Les deseo un matrimonio feliz! Que su matrimonio esté lleno no solo de amor y comprensión, sino también de risas y sarcasmo en cantidades saludables",
         "Felicidades por este día significativo. Les deseo un viaje conjunto por la vida donde cada error se convierta en una anécdota divertida en el futuro",
         "¡Feliz matrimonio! Que su matrimonio sea tan estable que ni siquiera el control remoto de la televisión provoque disputas conyugales",
-        "Felicidades en este maravilloso día. Les deseo la cantidad justa de acuerdo para elegir una película para la noche"
+        "Felicidades en este maravilloso día. Les deseo la cantidad justa de acuerdo para elegir una película para la noche",
         "¡Que tu matrimonio sea una Unión fuerte de amor, comprensión y felicidad! ¡Felicidades por el tan esperado día de la boda!",
         "¡Les deseo que cada día de su vida juntos esté lleno de alegría, apoyo mutuo y ternura! ¡Felicidades por tu matrimonio!",
         "¡Que tus corazones latan siempre al mismo ritmo y que tus días estén llenos de amor y felicidad! ¡Saludos cordiales el día de tu boda!",
@@ -1788,7 +1788,7 @@ object WeddingCongratulations {
         "En este día en el que prometen amarse el uno al otro sin importar todas las circunstancias, quiero desearles felicidad y bienestar. ¡Felicidades por tu boda! Que cada día esté lleno de alegría y armonía.",
         "Que tu matrimonio sea como un árbol fuerte, arraigado en el amor y creciendo cada año. ¡Felicidades por tu tan esperada boda! Deseo que tu familia prospere y te haga feliz siempre.",
         "En este día especial, quiero desearles que su viaje por la vida esté lleno de felicidad, aventuras y logros compartidos. ¡Felicidades por tu boda!",
-        "Hoy estás comenzando un nuevo capítulo de tu vida, un capítulo lleno de amor, respeto y comprensión mutua. ¡Feliz día de la boda! Deseo que su matrimonio sea una fuente de felicidad e inspiración infinitas".,
+        "Hoy estás comenzando un nuevo capítulo de tu vida, un capítulo lleno de amor, respeto y comprensión mutua. ¡Feliz día de la boda! Deseo que su matrimonio sea una fuente de felicidad e inspiración infinitas",
         "Hoy unen sus corazones para caminar juntos por la vida. ¡Felicidades por este momento mágico! Deje que su asociación esté llena de felicidad, riqueza y apoyo mutuo.",
         "Que cada día de tu vida juntos esté lleno de ternura, cuidado y momentos preciosos. ¡Feliz día de la boda! Te deseo un amor fuerte y duradero que brillará en tus corazones siempre.",
         "La boda es el comienzo de un nuevo cuento de hadas en el que te conviertes en los personajes principales. ¡Felicidades por este maravilloso comienzo! Deja que tu cuento de hadas esté lleno de momentos felices, magia y romance.",
@@ -2046,7 +2046,6 @@ object WeddingCongratulations {
         "¡Felicidades por este maravilloso día en el que ustedes dos se vuelven inseparables! Deje que su matrimonio sea una fuente de inspiración mutua, felicidad y crecimiento. ¡Deseo que construyas una familia basada en la sinceridad y el amor, y que tu viaje juntos esté lleno de alegría, sonrisas y momentos inolvidables!",
         "¡Felicidades por este hermoso y significativo día en tu vida, el día de la boda! Deje que su matrimonio esté lleno de amor, confianza y comprensión mutua. Deseo que superen todas las dificultades juntos, disfruten cada día y construyan una vida feliz y próspera. ¡Deja que tu matrimonio brille con una hermosa armonía y una larga y feliz convivencia!",
         "¡Felicidades por tu boda, queridos recién casados! Deje que su matrimonio esté lleno de amor, felicidad y comprensión mutua. Le deseo un apoyo mutuo perdurable, sonrisas sinceras y momentos inolvidables. ¡Que tu amor sea la personificación de la felicidad y cada día de tu vida juntos esté lleno de alegría y bienestar!",
-    )
     )
 
     private val german = listOf(
@@ -2594,5 +2593,4 @@ object WeddingCongratulations {
         "Ich gratuliere Ihnen zu diesem schönen und bedeutsamen Tag in Ihrem Leben - dem Hochzeitstag! Möge deine Ehe mit Liebe, Vertrauen und gegenseitigem Verständnis gefüllt sein. Ich wünsche Ihnen, alle Schwierigkeiten gemeinsam zu überwinden, jeden Tag zu genießen und ein glückliches und glückliches Leben aufzubauen. Lass deine Ehe in schöner Harmonie und einem langen, glücklichen Zusammenleben leuchten!",
         "Ich gratuliere Ihnen zu Ihrer Hochzeit, liebe Brautpaare! Möge deine Ehe mit Liebe, Glück und gegenseitigem Verständnis gefüllt sein. Ich wünsche Ihnen dauerhafte gegenseitige Unterstützung, ein aufrichtiges Lächeln und unvergessliche Momente. Möge deine Liebe die Verkörperung von Glück sein und jeden Tag deines gemeinsamen Lebens mit Freude und Wohlbefinden gefüllt sein!",
     )
-
 }

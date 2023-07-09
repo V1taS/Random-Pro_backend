@@ -373,7 +373,7 @@ object EnglishGiftIdeas {
         "Newton's cradle",
         "Fireworks",
         "Sweatshirt",
-        "Go-kart voucher"
+        "Go-kart voucher",
         "Subscription to an online streaming service",
         "Cardholder",
         "Nesser",
@@ -496,7 +496,6 @@ object EnglishGiftIdeas {
         "Epoxy resin painting kit",
         "Cufflinks",
         "3D origami constructor",
-
     )
 
     private val femaleGiftIdeas = listOf(

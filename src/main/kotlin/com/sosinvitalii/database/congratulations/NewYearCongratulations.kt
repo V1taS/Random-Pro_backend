@@ -502,10 +502,8 @@ object NewYearCongratulations {
         "May the New Year turn into a magical stage, where every step you take becomes a dance of joy, every word a song of love, and every glance a story of happiness. Happy New Year!",
         "In the new year, let your courage blossom like a beautiful flower, surpassing boundaries and reaching great heights. Wishing you boundless determination and success!",
         "May the New Year bring abundance into your life, where every loss is replaced with amazing gains. Happy New Year, and may you always have everything in abundance!",
-        "In this New Year, let yourself think more about what truly matters to you and take steps towards your goals. Wishing you confidence in your decisions and the achievement of outstanding results!",
-
-
-
+        "In this New Year, let yourself think more about what truly matters to you and take steps towards your goals. Wishing you confidence in your decisions and the achievement of outstanding results!"
+    )
 
     private val italian = listOf(
         "Buon anno nuovo! Che ogni giorno dell'anno nuovo sia pieno di gioia, desideri realizzati e avvenimenti luminosi. Vi auguro felicità, salute, successo e amore!",
@@ -795,7 +793,7 @@ object NewYearCongratulations {
         "Buon anno! Che porti giorni luminosi, abbracci calorosi e parole gentili che riscaldano il tuo cuore.",
         "Che il nuovo anno sia pieno di piacevoli sorprese che ti regalano un sorriso e momenti indimenticabili per tutta la vita.",
         "Buon anno! Che sia l'inizio di una nuova storia in cui ogni fiaba invernale diventi realtà e tu sia il protagonista della tua storia unica.",
-         "Che il nuovo anno riempia la tua vita di risate, giochi e divertimento, e ogni giorno diventi una festa condivisa con i tuoi cari.",
+        "Che il nuovo anno riempia la tua vita di risate, giochi e divertimento, e ogni giorno diventi una festa condivisa con i tuoi cari.",
         "Buon anno! Che ti dia ali per volare in alto e realizzare i tuoi sogni più audaci.",
         "Che il nuovo anno ti porti non solo ricchezza materiale, ma anche arricchimento spirituale, rendendoti una persona ancora più preziosa e saggia.",
         "Buon anno! Che sia pieno di colori vivaci, dolci momenti e avventure indimenticabili.",
@@ -866,7 +864,7 @@ object NewYearCongratulations {
         "Che il nuovo anno sia un tempo di auto-scoperta, in cui troverai nuove sfaccettature della tua personalità e acquisirai fiducia in te stesso.",
         "Buon anno nuovo! Che ti regali tante risate e gioia, così che tu possa affrontare tutte le difficoltà con ottimismo e allegria.",
         "Che il prossimo anno riempia la tua vita di avventure e opportunità di crescita personale, in modo da diventare la migliore versione di te stesso.",
-        "Che il prossimo anno ti porti armonia e equilibrio nella vita, in modo che tu possa accogliere tutto ciò che il destino ti offre con gratitudine."
+        "Che il prossimo anno ti porti armonia e equilibrio nella vita, in modo che tu possa accogliere tutto ciò che il destino ti offre con gratitudine.",
         "Felice anno nuovo! Che realizzi i tuoi desideri più profondi, e ogni giorno sia pieno di gioia e soddisfazione.",
         "Buon anno nuovo! Che porti un mare di opportunità per il tuo sviluppo personale, il successo in ogni impegno e la capacità di superare ogni ostacolo.",
         "Che il prossimo anno trasformi ogni tuo giorno in una festa, ricca di felicità e momenti luminosi che rimarranno per sempre impressi nella memoria.",
@@ -1537,8 +1535,7 @@ object NewYearCongratulations {
         "Пусть в новом году каждое ваше усилие будет вознаграждено, каждая ваша мечта - осуществлена, а каждая ваша победа - отмечена. Счастливого Нового года и пусть вы станете воплощением успеха!",
         "В новом году давайте откроем новые двери, преодолеем страхи и уверенно встанем на путь к своей мечте. Желаю вам смелости быть авантюристами своей судьбы!",
         "Пусть Новый год станет временем, когда вы осознаете свою внутреннюю силу и достигнете гармонии во всех сферах жизни. С Новым годом и пусть ваше сияние озаряет мир вокруг вас!",
-        "Пусть каждый ваш день в Новом году будет наполнен волшебством и улыбками, а каждое ваше усилие приводит к благополучию и успеху. Счастливого Нового года и пусть ваша жизнь становится все более прекрасной!",
-
+        "Пусть каждый ваш день в Новом году будет наполнен волшебством и улыбками, а каждое ваше усилие приводит к благополучию и успеху. Счастливого Нового года и пусть ваша жизнь становится все более прекрасной!"
     )
 
     private val spanish = listOf(
@@ -2038,7 +2035,7 @@ object NewYearCongratulations {
         "En el nuevo año, abramos nuevas puertas, superemos nuestros miedos y caminemos con confianza hacia nuestro sueño. Te deseo valentía para ser aventureros de tu propio destino. ¡Feliz Año Nuevo!",
         "Que el Año Nuevo sea un tiempo en el que te des cuenta de tu fuerza interna y alcances la armonía en todas las áreas de la vida. ¡Feliz Año Nuevo y que tu resplandor ilumine el mundo que te rodea!",
         "Que cada uno de tus días en el Año Nuevo esté lleno de magia y sonrisas, y cada uno de tus esfuerzos conduzca a la prosperidad y el éxito. ¡Feliz Año Nuevo y que tu vida se vuelva cada vez más hermosa!",
-        )
+    )
 
     private val german = listOf(
         "Frohes Neues Jahr! Möge jeder Tag des neuen Jahres mit Freude, erfüllten Wünschen und aufregenden Ereignissen gefüllt sein. Ich wünsche Ihnen Glück, Gesundheit, Erfolg und Liebe!",

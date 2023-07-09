@@ -512,7 +512,7 @@ object AnniversariesCongratulations {
         "Anniversary is a time for joy and celebration of your great journey. May each new day of your future bring you even more joy, love, and prosperity.",
         "Congratulations on your anniversary! I wish you to preserve your love for life and the ability to rejoice in every moment. May each new day of your life be filled with happiness, well-being, and the fulfillment of your dearest wishes.",
         "Anniversary is a time to realize your uniqueness and significance. May each new day of your future bring you only the best opportunities, health, success, and harmony.",
-        )
+    )
 
     private val italian = listOf(
         "Auguri per il tuo anniversario! Che questo giorno sia pieno di gioia, felicità e festa! Ti auguro salute, amore e il raggiungimento di tutti i tuoi sogni!",
@@ -997,10 +997,7 @@ object AnniversariesCongratulations {
         "Auguri per il tuo anniversario! Ti auguro di conservare la tua forza vitale e il tuo entusiasmo, affinché ogni nuovo giorno della tua vita sia pieno di energia, gioia e benessere. Che il tuo anniversario sia l'inizio dei momenti più felici e luminosi della tua vita.",
         "L'anniversario è il momento per gioire e festeggiare il tuo grande percorso. Che ogni nuovo giorno del tuo futuro ti porti ancora più gioia, amore e benessere.",
         "Auguri per il tuo anniversario! Ti auguro di conservare il tuo amore per la vita e la capacità di gioire di ogni istante. Che ogni nuovo giorno della tua vita diventi ricco di felicità, benessere e realizzazione dei tuoi desideri più cari.",
-        "L'anniversario è il momento per rendersi conto della tua unicità e importanza. Che ogni nuovo giorno del tuo futuro ti porti solo le migliori opportunità, salute, successi e armonia.",
-
-
-
+        "L'anniversario è il momento per rendersi conto della tua unicità e importanza. Che ogni nuovo giorno del tuo futuro ti porti solo le migliori opportunità, salute, successi e armonia."
         )
 
     private val russian = listOf(
@@ -1084,9 +1081,9 @@ object AnniversariesCongratulations {
         "С днем юбилея! Пусть каждый ваш день будет наполнен радостью, добротой и любовью. Желаем вам благополучия, крепкого здоровья и исполнения самых сокровенных желаний!",
         "Поздравляем с юбилеем, который символизирует вашу жизненную мудрость и силу! Пусть каждый день приносит вам новые возможности, успехи и незабываемые моменты радости!",
         "С наступлением юбилея хочется пожелать вам море счастливых мгновений и незабываемых приключений. Пусть ваша жизнь будет наполнена великолепными впечатлениями и бесценными воспоминаниями!",
-        "Поздравляем с юбилеем! Это ваше особенное время, когда можно ощутить гордость за все достигнутое и с нетерпением встретить новые горизонты. Желаем вам ярких возможностей и вдохновения на каждом шагу!,
+        "Поздравляем с юбилеем! Это ваше особенное время, когда можно ощутить гордость за все достигнутое и с нетерпением встретить новые горизонты. Желаем вам ярких возможностей и вдохновения на каждом шагу!",
         "С днем юбилея! Жизнь – это чудесное путешествие, и вы прошли по нему с достоинством и силой. Пусть ваше будущее будет наполнено любовью, счастьем и прекрасными возможностями!",
-        "Поздравляем с юбилеем! Этот день является подтверждением вашего великолепного пути и уникальности. Желаем вам вдохновения, успеха во всех начинаниях и бесконечного счастья!"
+        "Поздравляем с юбилеем! Этот день является подтверждением вашего великолепного пути и уникальности. Желаем вам вдохновения, успеха во всех начинаниях и бесконечного счастья!",
         "С наступлением юбилея хочется пожелать вам прекрасных моментов в кругу любимых людей и искренних друзей. Пусть каждый день приносит вам улыбку на лицо и тепло в сердце!",
         "Поздравляем с юбилеем! Этот день – символ вашей силы, мудрости и достижений. Пусть каждый день вашей жизни будет наполнен радостью, благополучием и самыми яркими эмоциями!",
         "С днем юбилея! Это особый повод отметить вашу значимость и вклад в жизнь окружающих. Желаем вам неиссякаемого оптимизма, здоровья и сбывания самых заветных мечт!",
@@ -1101,7 +1098,7 @@ object AnniversariesCongratulations {
         "Поздравляем с юбилеем! Вы – настоящий космический рокетмен, и ваш юбилей – это запуск в новые высоты и невероятные приключения. Пусть ваше путешествие через жизнь будет полным звездных мгновений и ошеломляющих открытий!",
         "С днем юбилея! Вы – настоящий гений юмора, чьи шутки всегда поднимают настроение. Пусть ваш юбилей станет праздником смеха, шуток и улыбок, которые звучат в течение всей жизни!",
         "Поздравляем с юбилеем! Вы – настоящий мастер кулинарного искусства, способный превратить обычную еду в произведение гастрономического искусства. Пусть ваш юбилей станет пиршеством вкуса и гастрономическим событием!",
-        "С наступлением юбилея хочется пожелать вам, чтобы ваша жизнь была как увлекательный головоломка. Пусть каждый ваш юбилейный день становится новым пазлом, который вы с радостью собираете!,
+        "С наступлением юбилея хочется пожелать вам, чтобы ваша жизнь была как увлекательный головоломка. Пусть каждый ваш юбилейный день становится новым пазлом, который вы с радостью собираете!",
         "Поздравляем с юбилеем! Вы – настоящий капитан своей жизни. Пусть ваш юбилей станет морским приключением, где вы смело идете по волнам судьбы, достигая новых горизонтов и завоевывая сердца людей!",
         "С юбилеем! Вы – настоящий маг в искусстве жизни, способный превращать обычные моменты в волшебные. Пусть ваш юбилей станет великолепным шоу, наполненным фокусами счастья, и пусть каждый день будет волшебным путешествием!",
         "Поздравляем с юбилеем! Вы – непревзойденный танцор жизни, чьи шаги наполнены грацией и энергией. Пусть ваш юбилей станет ярким танцевальным шоу, где вы воплощаете свои мечты на пути к успеху!",
@@ -1230,8 +1227,8 @@ object AnniversariesCongratulations {
         "Поздравляем с юбилеем, который пришел с благодарностью за прожитые годы! Пусть каждый день вашей жизни будет наполнен смыслом, а каждое достижение становится заслуженной наградой.",
         "В этот особый день юбилея хотим пожелать вам сохранить свою жизнерадостность и энтузиазм. Пусть ваше сердце будет открыто для новых возможностей и приключений.",
         "С днем юбилея! Пусть ваша жизнь будет как прекрасная симфония, в которой каждая нота звучит гармонично, а каждая пауза - дарует время для отдыха и наслаждения.",
-        "Поздравляем с юбилеем, который олицетворяет силу духа и настойчивость! Пусть каждый ваш шаг будет направлен к осуществлению ваших самых заветных мечтаний, а каждая победа станет доказательством вашей неоспоримой силы.
-        "В этот юбилейный день хотим пожелать вам бесконечного вдохновения и творческого роста! Пусть каждый ваш творческий порыв станет магией, которая преображает вашу жизнь.
+        "Поздравляем с юбилеем, который олицетворяет силу духа и настойчивость! Пусть каждый ваш шаг будет направлен к осуществлению ваших самых заветных мечтаний, а каждая победа станет доказательством вашей неоспоримой силы.",
+        "В этот юбилейный день хотим пожелать вам бесконечного вдохновения и творческого роста! Пусть каждый ваш творческий порыв станет магией, которая преображает вашу жизнь.",
         "С днем юбилея! Желаем вам быть окруженным добрыми и искренними людьми, с которыми вы сможете разделить свои радости и трудности. Пусть ваше сердце будет наполнено любовью и поддержкой.",
         "Поздравляем с юбилеем, который приходит с благодарностью за каждый прожитый год! Пусть каждый ваш день будет наполнен улыбками, радостью и незабываемыми моментами счастья.",
         "В этот особый день юбилея хотим пожелать вам сохранить свою непоколебимую веру в себя и в свои возможности. Пусть каждая ваша цель становится реальностью, а каждое испытание - шансом для роста.",
@@ -1504,9 +1501,7 @@ object AnniversariesCongratulations {
         "Поздравляю с юбилеем! Желаю вам сохранять свою жизненную силу и энтузиазм, чтобы каждый новый день вашей жизни был наполнен энергией, радостью и благополучием. Пусть ваш юбилей станет отправной точкой для самых счастливых и ярких моментов в вашей жизни.",
         "Юбилей - это время для радости и празднования вашего великого пути. Пусть каждый новый день вашего будущего принесет вам еще больше радости, любви и благополучия.",
         "Поздравляю с юбилеем! Желаю вам сохранять свою любовь к жизни и способность радоваться каждому мгновению. Пусть каждый новый день вашей жизни становится заполненным счастьем, благополучием и исполнением самых заветных желаний.",
-        "Юбилей - это время для осознания вашей уникальности и значимости. Пусть каждый новый день вашего будущего принесет вам только лучшие возможности, здоровье, успехи и гармонию.",
-
-
+        "Юбилей - это время для осознания вашей уникальности и значимости. Пусть каждый новый день вашего будущего принесет вам только лучшие возможности, здоровье, успехи и гармонию."
         )
 
     private val spanish = listOf(
@@ -1995,9 +1990,8 @@ object AnniversariesCongratulations {
         "El aniversario es un tiempo de alegría y celebración de tu gran trayectoria. Que cada nuevo día de tu futuro te traiga aún más alegría, amor y bienestar.",
         "¡Feliz día de tu aniversario! Te deseo que conserves tu amor por la vida y la capacidad de disfrutar cada momento. Que cada día de tu vida sea una celebración llena de amor, amistad y felicidad.",
         "Felicitaciones por tu aniversario. Te deseo que conserves tu sabiduría y paciencia, para que cada nuevo día de tu vida sea una oportunidad para tomar decisiones sabias, encontrar la armonía y el bienestar.",
-        "El aniversario es un momento para reconocer tu valor y tu contribución al mundo. Que cada nuevo día de tu futuro sea una oportunidad para nuevos objetivos, crecimiento y autodesarrollo. Te deseo más éxitos y la realización de tus sueños.",
-
-        )
+        "El aniversario es un momento para reconocer tu valor y tu contribución al mundo. Que cada nuevo día de tu futuro sea una oportunidad para nuevos objetivos, crecimiento y autodesarrollo. Te deseo más éxitos y la realización de tus sueños."
+    )
 
     private val german = listOf(
         "Herzlichen Glückwunsch zum Jubiläum! Möge dieser Tag voller Freude, Glück und festlicher Stimmung sein! Ich wünsche Ihnen Gesundheit, Liebe und dass all Ihre Träume in Erfüllung gehen!",
@@ -2468,3 +2462,5 @@ object AnniversariesCongratulations {
         "Ein Jubiläum ist eine Zeit der Freude und des Feierns Ihres großartigen Weges. Möge jeder neue Tag Ihrer Zukunft Ihnen noch mehr Freude, Liebe und Wohlstand bringen.",
         "Herzlichen Glückwunsch zum Jubiläum! Ich wünsche Ihnen, Ihre Liebe zum Leben und die Fähigkeit, jeden Moment zu genießen, zu bewahren. Möge jeder neue Tag Ihres Lebens erfüllt sein von Glück, Wohlstand und Erfüllung Ihrer tiefsten Wünsche.",
         "Ein Jubiläum ist eine Zeit, um Ihre Einzigartigkeit und Bedeutung zu erkennen. Möge jeder neue Tag Ihrer Zukunft nur die besten Möglichkeiten, Gesundheit, Erfolge und Harmonie bringen.",
+    )
+}
